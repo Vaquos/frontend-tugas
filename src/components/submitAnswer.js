@@ -40,7 +40,7 @@ export default function SubmitAnswer(props){
         <>
             <form onSubmit={submit}>
                 <input type="text" onChange={(e) => setAnswer(e.target.value)} className="rounded-sm bg-slate-600 ring-fuchsia-500 h-7 w-3/4" />
-                <button type="submit" className="px-4 py-1 rounded-sm bg-sky-400 w-1/4">Submit</button>
+                <button type="submit" className="px-4 py-1 rounded-sm bg-sky-400 w-1/4 text-white font-semibold">Submit</button>
             </form>
         </>
     )
