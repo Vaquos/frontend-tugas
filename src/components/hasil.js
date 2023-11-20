@@ -19,7 +19,7 @@ export default function HasilComponent() {
             router.replace('/')
         }
 
-    },[])
+    },[router])
 
     return(
         <>

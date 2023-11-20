@@ -60,14 +60,14 @@ export default function Answer(props){
             setAnswer(sessionStorage.getItem(props.number))
         }
 
-    },[])
+    },[props.number])
 
     return(
         <>
             <div>
                 {option.map((result, index) => (
                     <div key={index} className="flex">
-                        <input type="radio" onChange={change} name={`answer`} value={result} checked={...answer == result} /><label>{result + '.' +data[result]}</label>
+                        <input type="radio" onChange={change} name={`answer`} value={result} checked={answer == result? 'checked' : ''} /><label>{result + '.' +data[result]}</label>
                     </div>
                 ))}
             </div>
