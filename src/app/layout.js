@@ -22,6 +22,20 @@ export default async function RootLayout({ children }) {
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7252869313064193"
             crossorigin="anonymous"
           ></script>
+          <ins
+            class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-7252869313064193"
+            data-ad-slot="7274223198"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          ></ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+          {/* <script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7252869313064193"
+            crossorigin="anonymous"
+          ></script> */}
         </main>
         <footer className="fixed bottom-0 w-full">
           <p className="text-white text-center font-mono">
